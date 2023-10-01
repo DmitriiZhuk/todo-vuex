@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap);
+.todos[data-v-78de5cd3] {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.todo[data-v-78de5cd3] {
+  border: 1px solid #729dfa;
+  background-color: #729dfa;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  color: #f0f8ff;
+  height: 5vh;
+}
+svg[data-v-78de5cd3] {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  fill: #fff;
+}
+form[data-v-e52804da] {
+  display: flex;
+  gap: 10px;
+}
+input[type="text"][data-v-e52804da] {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 1rem;
+  flex: 10;
+  padding: 10px;
+  border: 1px solid #729dfa;
+  border-radius: 10px;
+}
+input[type="submit"][data-v-e52804da] {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #4a5263;
+  border-radius: 10px;
+}
+input[type="submit"][data-v-e52804da],
+select {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 1rem;
+}
+select {
+  width: 8vw;
+  height: 3vh;
+  border-radius: 4px;
+}
+body {
+  font-family: Nunito Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #0a2357;
+}
+.container {
+  margin: 0 auto;
+  width: 60vw;
+}
