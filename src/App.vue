@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+
+    <AddTodo />
+    <FilterTodos/>
+    <ToDos />
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ToDos from "./components/ToDos.vue"
+import AddTodo from "./components/AddTodo.vue"
+import FilterTodos from "./components/FilterTodos.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ToDos, AddTodo, FilterTodos
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(10, 35, 87);
+}
+
+.container {
+  margin: 0 auto;
+  width: 60vw;
 }
 </style>
